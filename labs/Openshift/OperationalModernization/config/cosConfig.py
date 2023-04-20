@@ -17,6 +17,8 @@ securityConfigID=AdminConfig.getid('/Cell:' + AdminControl.getCell() + '/' + 'Se
 AdminConfig.modify(securityConfigID,[['appEnabled','true']])
 AdminTask.isAppSecurityEnabled()
 print 'End enable app security'
+AdminConfig.save()
+
 
 print 'Start Creating Users'
 AdminTask.createUser ('[-uid skywalker -password force -confirmPassword force -cn Luke  -sn Skywalker]')

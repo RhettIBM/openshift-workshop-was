@@ -1,5 +1,5 @@
-FROM ibmcom/websphere-traditional:latest
-
+FROM ibmcom/websphere-traditional:9.0.5.14
+#FROM ibmcom/websphere-traditional:latest
 COPY --chown=1001:0 resources/db2/ /opt/IBM/db2drivers/
 
 COPY --chown=1001:0 config/PASSWORD /tmp/PASSWORD
