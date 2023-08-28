@@ -1,7 +1,7 @@
 ## Build stage
 FROM docker.io/maven:3.8.4 AS builder
 COPY app/ /
-RUN cd CustomerOrderServicesProject && mvn -X clean package
+RUN cd CustomerOrderServicesProject && mvn clean package
 
 ## Application image
 FROM docker.io/openliberty/open-liberty:full-java8-openj9-ubi
