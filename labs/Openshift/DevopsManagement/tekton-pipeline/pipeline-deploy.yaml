@@ -44,7 +44,7 @@ spec:
         - name: CONTEXT
           value: $(workspaces.source.path)/labs/Openshift/DevopsManagement
         - name: BUILDER_IMAGE
-          value: "quay.io/buildah/stable:v1.11.0"
+          value: "quay.io/buildah/stable:v1.21.4"
         - name: TLSVERIFY
           value: "false"
       runAfter:
