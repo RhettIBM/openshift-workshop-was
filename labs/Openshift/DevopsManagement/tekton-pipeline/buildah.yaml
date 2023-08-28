@@ -35,7 +35,7 @@ spec:
       privileged: true
 
   - name: push
-    image: quay.io/openshift-pipeline/buildah
+    image: quay.io/buildah/stable:v1.11.0
     workingDir: $(workspaces.source.path)
     command: ['buildah', 'push', '--tls-verify=false', $(params.IMAGE), $(params.IMAGE)]
     volumeMounts:
