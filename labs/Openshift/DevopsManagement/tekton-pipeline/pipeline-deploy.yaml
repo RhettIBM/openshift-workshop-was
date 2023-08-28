@@ -9,7 +9,7 @@ spec:
       description: The git repository URL to clone from
     - name: BUILDER_IMAGE
       description: Image used to do the build
-      default: quay.io/buildah/stable:v1.11.0
+      default: quay.io/buildah/stable:v1.21.4
     - name: TLSVERIFY
       description: True or False for TLS Verificatoin
       default: "false"
