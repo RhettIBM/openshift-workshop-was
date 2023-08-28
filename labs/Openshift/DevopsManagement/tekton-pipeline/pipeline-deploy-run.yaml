@@ -5,7 +5,7 @@ metadata:
 spec:
   params:
     - name: BUILDER_IMAGE
-      value: 'quay.io/buildah/stable:v1.26.2'
+      value: 'quay.io/buildah/stable:v1.21.4'
     - name: TLSVERIFY
       value: 'false'
     - name: target-namespace
