@@ -9,7 +9,7 @@ spec:
     - name: TLSVERIFY
       value: 'false'
     - name: target-namespace
-      value: websphere-liberty-demo
+      value: dev
     - name: repo-url
       value: https://github.com/RhettIBM/openshift-workshop-was.git
   pipelineRef:
