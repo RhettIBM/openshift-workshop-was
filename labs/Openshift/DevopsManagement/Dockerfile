@@ -1,5 +1,5 @@
 ## Build stage
-FROM maven:latest AS builder
+FROM maven:3.8.4 AS builder
 COPY app/ /
 RUN cd CustomerOrderServicesProject && mvn -X clean package
 
