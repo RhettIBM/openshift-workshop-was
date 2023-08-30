@@ -1,4 +1,6 @@
-apiVersion: apps.openliberty.io/v1
+#For my cluster I need to use this apiVersion
+#apiVersion: apps.openliberty.io/v1
+apiVersion: openliberty.io/v1beta1
 kind: OpenLibertyApplication
 metadata:
   name: cos
